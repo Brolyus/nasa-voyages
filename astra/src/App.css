@@ -1,0 +1,46 @@
+.App{
+  background-image: url('https://zupimages.net/up/19/46/nc2w.png') ;
+  height: 100vh;
+  background-size: cover;
+}
+
+.Game{
+  padding: 3%;
+}
+
+a {
+  color: antiquewhite;
+}
+
+.application {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    height: 200vh;
+  }
+  .Game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .logoAstra img{
+    max-width: 100%;
+    height: auto;
+  }
+  .plan-travel h3{
+    width: auto;
+  }
+  .divCalcul{
+    width: auto;
+  }
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab{
+    padding: 0;
+  }
+  .LinkLexique {
+    box-sizing: border-box;
+  }
+}
