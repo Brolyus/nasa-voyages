@@ -1,4 +1,0 @@
-[build]
-base = "astra/"
-publish = "astra/build/"
-command = "yarn build"
